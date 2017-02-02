@@ -18,14 +18,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cXf-t9-0dE">
-                                <rect key="frame" x="277" y="20" width="46" height="30"/>
+                                <rect key="frame" x="277" y="550" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="cXf-t9-0dE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="H8r-Gy-Qh5"/>
-                            <constraint firstItem="cXf-t9-0dE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="f91-dK-ABe"/>
+                            <constraint firstAttribute="bottom" secondItem="cXf-t9-0dE" secondAttribute="bottom" constant="20" symbolic="YES" id="UrF-FP-pxW"/>
+                            <constraint firstItem="cXf-t9-0dE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="d8x-iy-Hvs"/>
                         </constraints>
                     </view>
                 </viewController>
